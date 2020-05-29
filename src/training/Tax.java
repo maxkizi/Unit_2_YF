@@ -1,6 +1,6 @@
 package training;
 
-public class Tax {
+public class  Tax {
     double grossIncome; //общий приход зп
     String state;
     int dependents;
@@ -11,7 +11,7 @@ public class Tax {
 
     }
 
-    public double calcTax (double a ){
+     double calcTax (double a ){
 
         if (grossIncome >= a)
             return grossIncome*0.06;

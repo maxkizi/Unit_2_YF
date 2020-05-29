@@ -12,4 +12,7 @@ public class NJTax extends Tax {
 
         else return tax;
     }
+    double calcTax (double a ){
+        return a*grossIncome;
+    }
 }
